@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+/*nav */
+nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 25px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    text-decoration:none;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav img {
+    position: relative;
+    width: 250px;
+}
+/* finnav*/
+
+/* slider */
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 910px;
+    margin-top: 0px;
+    z-index: auto;
+}
+
+.slides {
+    width: calc(1900px * 3);
+    animation: glisse 20s infinite;
+}
+
+.slide {
+    float: left;
+}
+
+.textslider {
+    left: 500px;
+    top: 400px;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-shadow: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.textslider2 {
+    left: 2500px;
+    top: 400px;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-shadow: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.textslider3 {
+    left: 4400px;
+    top: 400px;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-shadow: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-1900px);
+    }
+
+    66% {
+        transform: translateX(-3800px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+/* fin slider */
+
+/*section1*/
+#container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*finsection1*/
+
+/*parallax*/
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+/* fin parallax*/
+
+/* section 2 */
+.center {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.galerie img {
+    height: 400px;
+    width: 400px;
+}
+/* fin section 2*/
+
+/* footer*/
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+}
+/*fin footer2*/
